@@ -1,0 +1,210 @@
+/* Full-screen container */
+.teacher-container {
+    min-height: 100vh;
+    background-size: cover;
+    background: #B3B4B7;
+    color: #404041;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+/* Course title */
+.Teacher-title {
+    width: 450px;
+    height: 51px;
+    position: relative;
+    color: #404041;
+    font-family: "Inria Serif";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 150px;
+    margin-bottom: 5px;
+    margin-top: 50px;
+}
+.Teacher-title::after {
+    content: "";
+    position: absolute;
+    width: 180px; 
+    height: 5px;
+    background-color: #C2E7EF;
+    bottom: -10px;
+    left: 0px;
+}
+
+/* Reports title */
+.reports-title {
+    color: #404041;
+    font-family: "Inria Serif";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 160px;
+}
+
+/* Reports container */
+.reports-container {
+    margin-left: 160px;
+    width: 80%;
+    max-width: 800px;
+}
+
+/* Report row, the squares */
+.report {
+    display: flex;
+    justify-content: space-between;
+    background-color: #C2E7EF;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.input-field {
+    width: 100%;
+    border: none;
+    background: #C2E7EF;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Inria Serif";
+    font-size: 16px;
+    color: #404041;
+}
+
+.input-field:disabled {
+    color: #707070;
+}
+
+.save-message {
+    color: #404041;
+    font-family: "Inria Serif";
+    font-size: 16px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.submit-button {
+    background: #C2E7EF;
+    color: #404041;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-family: "Inria Serif";
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 200px;
+    height: 43px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 450px;
+}
+
+.submit-button:hover {
+    transform: scale(1.05);
+}
+
+/* Removed the border-top from account-section */
+.account-section {
+    padding-top: 20px;
+}
+
+.button-group {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.delete-button {
+    background: #C2E7EF;
+    color: #404041;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-family: "Inria Serif";
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 200px;
+    height: 43px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.delete-button:hover {
+    transform: scale(1.05);
+}
+
+.edit-button {
+    background: #C2E7EF;
+    color: #404041;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-family: "Inria Serif";
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 200px;
+    height: 43px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.edit-button:hover {
+    transform: scale(1.05);
+}
+
+.cancel-button {
+    background: #E0A8A8;
+    color: #404041;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-family: "Inria Serif";
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 200px;
+    height: 43px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cancel-button:hover {
+    transform: scale(1.05);
+}
+
+.toggle-password {
+    background: transparent;
+    border: none;
+    color: #404041;
+    font-family: "Inria Serif";
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.toggle-password:disabled {
+    color: #707070;
+    cursor: not-allowed;
+}

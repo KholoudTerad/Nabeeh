@@ -1,0 +1,141 @@
+/* Navbar Container */
+/*.navbar {
+    position: fixed;
+    width: 1024px;
+    height: 80px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    border-radius: 0px 0px 10px 10px;
+    background: rgba(64, 64, 65, 0.50);
+    backdrop-filter: blur(20px);
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 0 40px;
+    z-index: 300;
+}
+
+
+.logot {
+    color: #404041;
+    font-family: "Inria Serif", serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    position: relative;
+    margin-right: 40px;
+}
+
+
+.logot::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    background-color: #C2E7EF;
+    left: 0;
+    bottom: -5px;
+}
+
+
+.nav-links {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.nav-links a {
+    color: #C2E7EF;
+    font-family: "Inria Serif", serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    flex-grow: 1;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid transparent; 
+    transition: border-bottom 0.3s ease-in-out;
+}
+
+
+.nav-links a:hover {
+    border-bottom: 2px solid #C2E7EF;
+}
+
+.logout-btn {
+    background: none;
+    border: none;
+    color: #C2E7EF;
+    font-family: "Inria Serif", serif;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 20px 0;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease-in-out;
+}
+
+.logout-btn:hover {
+    border-bottom: 2px solid #C2E7EF;
+}
+
+.HomeT-btn {
+    background: none;
+    border: none;
+    color: #C2E7EF;
+    font-family: "Inria Serif", serif;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 20px 0;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease-in-out;
+}
+
+.HomeT-btn:hover {
+    border-bottom: 2px solid #C2E7EF;
+}*/
+
+/* Navbar Links Container */
+.nav-links {
+    display: flex;
+    gap: 69px;  /* Add spacing between items */
+    align-items: center; /* Align items vertically */
+    
+}
+
+/* Common Styles for Navbar Items */
+.nav-links a,
+.logout-btn,
+.MyAccount-btn,
+.HomeT-btn {
+    color: #C2E7EF;
+    font-family: "Inria Serif", serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    padding-right: 30px;
+
+    border-bottom: 2px solid transparent; /* Invisible underline */
+    transition: border-bottom 0.3s ease-in-out;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hover Effect */
+.nav-links a:hover,
+.logout-btn:hover,
+.MyAccount-btn:hover,
+.HomeT-btn:hover{
+    border-bottom: 2px solid #C2E7EF;
+}

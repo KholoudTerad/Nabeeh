@@ -1,0 +1,75 @@
+.contact-container {
+    background-color:  #B3B4B7; /* Matches reference */
+    padding: 40px 80px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.contact-title {
+    color: #404041;
+    font-family: "Inria Serif", serif;
+    font-size: 40px;
+    font-weight: 700;
+    width: 226px; /* Keeps title width consistent */
+    height: 50px;
+    position: relative;
+    flex-shrink: 0;
+    text-align: left; }/* Ensures alignment */
+
+
+.contact-title::after {
+    content: "";
+    position: absolute;
+    width: 140px; /* Ensures the underline is not centered */
+    height: 5px;
+    background-color: #C2E7EF;
+    bottom: -5px;
+    left: 0;} /* Aligns underline to the left edge of the text */
+
+
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 100px; /* Adjusted for better alignment */
+    align-items: center;
+    max-width: 900px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-icon {
+    width: 24px;
+    height: 24px;
+    color: #404041;
+}
+
+.contact-text {
+    font-family: "Inria Serif", serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #404041;
+    text-decoration: underline;
+    text-underline-offset: auto;
+    text-decoration-thickness: auto;
+}
+
+
+.email {
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+}
+
+.phone {
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+}

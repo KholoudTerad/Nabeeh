@@ -1,0 +1,53 @@
+:root {
+    --blue: #C2E7EF;
+    --dark-gray: #404041;
+    --light-gray:#B3B4B7;
+    --green: #7EB061;
+    --red: #C77070;
+}
+
+/* Borders */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+/* General Text */
+body {
+    margin: 0;
+    font-family: "Inria Serif";
+    width: 100% ;
+}
+
+/* Centering the Wrapper */
+.wrapper {
+    max-width: 1024px; 
+    margin: 0 auto;  
+}
+
+
+/* Remove underline from links */
+a {
+    text-decoration: none;
+}
+
+/*sections*/
+
+section{
+    padding: 48px 0;
+    color: var(--blue);
+}
+section h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.gray{
+    background: #404041;
+}
+
+html {
+    scroll-behavior: smooth;
+  }

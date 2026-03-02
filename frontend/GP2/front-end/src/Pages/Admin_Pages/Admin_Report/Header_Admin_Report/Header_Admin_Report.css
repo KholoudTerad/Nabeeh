@@ -1,0 +1,87 @@
+.Report-container {
+    min-height: 100vh;
+    background-size: cover;
+    background: #B3B4B7;
+    color: #404041;
+    
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    justify-content: center;
+    margin: auto;
+  }
+  
+  /* Course title */
+  .Report-title {
+    width: 1000px;
+    height: 51px;
+  
+    position: relative;
+    color: #404041;
+    font-family: "Inria Serif";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    
+    margin-left: 150px;
+    
+  }
+  
+  .Report-title::after{
+    content:"";
+    position: absolute;
+    width: 197.531px;
+    height: 5.1px;
+    background-color: #C2E7EF;
+    left: 0;
+    bottom: -5px;
+  
+  }
+  
+  /* PDF Preview */
+  .teacher-report-pdf-container {
+    width: 500px;
+    height: 450px;
+    margin-left: 477px;
+  
+  }
+  
+  .teacher-report-pdf {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+    border: none;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    /*background: var(--red);*/
+  }
+  
+  
+  
+  .download-btn {
+    background-color: #C2E7EF;
+    width: 345px;
+    height: 43px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 50px;
+    border: none;
+    margin-left: 550px;
+  
+    color: #404040;
+    font-family: "Inria Serif";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .download-btn:hover {
+    background-color: #C2E7EF;
+    transform: scale(1.05);
+  }
+  
+  
+    
+    
+    

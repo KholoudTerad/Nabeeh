@@ -1,0 +1,259 @@
+/*Header {
+    min-height: 100vh;
+    background: url(../../../../assets/backround-image.png);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  header .wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header .cta { 
+    width: 473px;
+    height: 499px;
+    border-radius: 20px;
+    border: 0;
+    background: rgba(64, 64, 65, 0.50);
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px; 
+    left: 403.5px;
+    bottom: 47px;
+  }
+  
+  header .cta h1 {
+    color: #C2E7EF;
+    font-family: "Inria Serif";
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px; 
+    text-align: center;
+  }
+  
+  
+  .cta form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .cta .input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    width: 283px;
+  }
+  
+  .cta label {
+    color: #C2E7EF;
+    font-family: "Inria Serif";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin-bottom: 5px;
+  }
+  
+  .cta input {
+    width: 283px;
+    height: 43px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(194, 231, 239, 0.50);
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .cta input::placeholder {
+    color: #555;
+  }
+  
+  .cta .THome-btn{
+    width: 283px;
+    height: 43px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background: #C2E7EF;
+    color: #404041;
+    font-family: "Inria Serif";
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cta button:hover {
+    background: #9ec2d3;
+  }
+  
+  .cta p {
+    color: #C2E7EF;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .cta p a {
+    color: #9ec2d3;
+    text-decoration: none;
+  }
+  
+  .cta p a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .cta .error-message {
+    color: #C77070 !important;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Inria Serif", serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }*/
+
+  Header {
+    min-height: 100vh;
+    background: url(../../../../assets/backround-image.png);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  header .wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header .cta { 
+    width: 473px;
+    height: 499px;
+    border-radius: 20px;
+    border: 0;
+    background: rgba(64, 64, 65, 0.50);
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px; /* Increased space above the title */
+    left: 403.5px;
+    bottom: 47px;
+  }
+  
+  header .cta h1 {
+    color: #C2E7EF;
+    font-family: "Inria Serif";
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px; /* Increased space between title and form */
+    text-align: center;
+  }
+  
+  /* Form Styling */
+  .cta form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .cta .input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns label and input to the left */
+    width: 283px; /* Match input width */
+  }
+  
+  .cta label {
+    color: #C2E7EF;
+    font-family: "Inria Serif";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin-bottom: 5px;
+  }
+  
+  .cta input {
+    width: 283px;
+    height: 43px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(194, 231, 239, 0.50);
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .cta input::placeholder {
+    color: #555;
+  }
+  
+   .cta .AHome-btn{
+    width: 283px;
+    height: 43px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background: #C2E7EF;
+    color: #404041;
+    font-family: "Inria Serif";
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .cta button:hover {
+    background: #9ec2d3;
+    background-color: #C2E7EF;
+    transform: scale(1.05);
+  }
+  
+  .cta p {
+    color: #C2E7EF;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .cta p a {
+    color: #9ec2d3;
+    text-decoration: none;
+  }
+  
+  .cta p a:hover {
+    text-decoration: underline;
+    background-color: #C2E7EF;
+    transform: scale(1.05);
+  }
+  
+  
+  .cta .error-message {
+    color: #C77070 !important;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Inria Serif", serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  

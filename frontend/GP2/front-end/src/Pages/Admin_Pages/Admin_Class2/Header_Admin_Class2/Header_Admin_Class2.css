@@ -1,0 +1,151 @@
+.teacher-container {
+    min-height: 100vh;
+    background: #B3B4B7;
+    color: #404041;
+    padding: 40px 100px;
+}
+
+/* Title Styles */
+.course-titlee {
+    width: 400px;
+    height: 51px;
+    position: relative;
+    color: #404041;
+    font-family: "Inria Serif";
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+
+.course-titlee::after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 5.1px;
+    background-color: #C2E7EF;
+    left: 0;
+    bottom: -5px;
+}
+
+/* Reports Title */
+.reports-title {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Inria Serif";
+    margin-left: 160px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* Reports Section */
+.reports-container {
+    margin-left: 160px;
+    width: 80%;
+    max-width: 800px;
+}
+
+.report {
+    display: flex;
+    justify-content: space-between;
+    background-color: #C2E7EF;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    align-items: center;
+}
+
+.review-button {
+    background: none;
+    border: none;
+    color: var(--green);
+    font-style: italic;
+    font-family: "Inria Serif";
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.review-button:hover {
+    transform: scale(1.05);
+}
+
+.not-ready {
+    color: var(--red);
+    font-style: italic;
+    font-family: "Inria Serif";
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Teacher Section */
+.input-field {
+    width: 100%;
+    border: none;
+    background: #C2E7EF;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Inria Serif";
+    font-size: 16px;
+    color: #404041;
+}
+
+/* Buttons Section */
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Equal spacing between buttons */
+    margin-top: 30px;
+}
+
+
+.submit-button1, .delete-btn1 {
+    background: #C2E7EF;
+    color: #404041;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-family: "Inria Serif";
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 220px; /* Ensures both buttons have equal width */
+    height: 50px; /* Ensures both buttons have equal height */
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit-button1:hover, .delete-btn1:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .teacher-container {
+        padding: 20px;
+    }
+
+    .course-title {
+        margin-left: 20px;
+        font-size: 32px;
+    }
+
+    .reports-container {
+        margin-left: 20px;
+        width: 90%;
+    }
+
+    .action-buttons {
+        flex-direction: column; /* Stack buttons vertically on smaller screens */
+        align-items: center;
+    }
+
+    .submit-button1, .delete-btn1 {
+        width: 100%; /* Full width on smaller screens */
+    }
+}

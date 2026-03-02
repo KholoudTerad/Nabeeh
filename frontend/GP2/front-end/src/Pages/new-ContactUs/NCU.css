@@ -1,0 +1,76 @@
+.ncontact-container {
+    background-color: #404041; /* Matches reference */
+    padding: 40px 80px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.ncontact-title {
+    color:#C2E7EF ;
+    font-family: "Inria Serif", serif;
+    font-size: 40px;
+    font-weight: 700;
+    width: 226px; /* Keeps title width consistent */
+    height: 50px;
+    position: relative;
+    flex-shrink: 0;
+    text-align: left; }/* Ensures alignment */
+
+
+.ncontact-title::after {
+    content: "";
+    position: absolute;
+    width: 140px; /* Ensures the underline is not centered */
+    height: 5px;
+    background-color: #B3B4B7;
+    bottom: -5px;
+    left: 0;} /* Aligns underline to the left edge of the text */
+
+
+
+.ncontact-info {
+    display: flex;
+    justify-content: center;
+    gap: 100px; /* Adjusted for better alignment */
+    align-items: center;
+    max-width: 900px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ncontact-icon {
+    width: 24px;
+    height: 24px;
+    color: #C2E7EF;
+    
+}
+
+.ncontact-text {
+    font-family: "Inria Serif", serif;
+    font-size: 20px;
+    font-weight: 400;
+    color:#C2E7EF;
+    text-decoration: underline;
+    text-underline-offset: auto;
+    text-decoration-thickness: auto;
+}
+
+/* Specific styles for email and phone */
+.email {
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+}
+
+.phone {
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+}

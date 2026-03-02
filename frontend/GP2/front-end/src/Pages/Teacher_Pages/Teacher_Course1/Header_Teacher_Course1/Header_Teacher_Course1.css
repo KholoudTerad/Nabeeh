@@ -1,0 +1,174 @@
+.teacher-container {
+  min-height: 100vh;
+  background-size: cover;
+  background: #B3B4B7;
+  color: #404041;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: auto;
+  padding: 50px 0 0 150px;
+}
+
+/* Course Title */
+.course-title {
+  color: #404041;
+  font-family: "Inria Serif";
+  font-size: 40px;
+  font-weight: 700;
+  position: relative;
+  white-space: nowrap;
+  margin-bottom: 10px;
+}
+
+.course-title::after {
+  content: "";
+  position: absolute;
+  width: 197.531px;
+  height: 5.1px;
+  background-color: #C2E7EF;
+  left: 0;
+  bottom: -5px;
+}
+
+/* Upload Label + File Input */
+.upload-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #404040;
+  font-family: "Inria Serif";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Upload Title */
+.reports-title {
+  font-family: "Inria Serif";
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+/* File input styling */
+input[type="file"] {
+  padding: 10px;
+  border: 1px solid #B3B4B7;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #404041;
+  font-family: "Inria Serif";
+}
+
+/* Error & Status Messages */
+.error-message {
+  color: #9c5353;
+  margin-top: 10px;
+  font-family: "Inria Serif";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.success-message,
+.status-message {
+  color: #5f8d46;
+  margin-top: 10px;
+  font-family: "Inria Serif";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 0; /* Aligns to left like headings */
+}
+
+/* Upload & Download Buttons */
+.upload-analyze-button,
+.download-link {
+  background-color: #C2E7EF;
+  width: 345px;
+  height: 43px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 50px auto 0 auto;
+  border: none;
+  color: #404040;
+  font-family: "Inria Serif";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  /* Make sure text is centered */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+.upload-analyze-button:hover,
+.download-link:hover {
+  background-color: #C2E7EF;
+  transform: scale(1.05);
+}
+
+/* Analysis Results Container */
+.analysis-results {
+  text-align: center;
+  margin-top: 5px;
+  width: 100%;
+  color: #404040;
+  font-family: "Inria Serif";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.overall-engagement {
+  font-size: 26px;
+  color: #404040;
+  margin-top: 5px;
+}
+
+
+/* PDF Preview Container */
+.pdf-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.pdf-preview h4 {
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #404040;
+  font-size: 18px;
+  font-family: "Inria Serif";
+  font-style: normal;
+  line-height: normal;
+}
+
+/* PDF iframe Wrapper */
+.pdf-frame-wrapper {
+  width: 500px;
+  height: 700px;
+  background-color: #404041;
+  border: 1px solid #B3B4B7;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.pdf-frame-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}

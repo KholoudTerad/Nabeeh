@@ -1,0 +1,80 @@
+/* AboutUs.css */
+.gray {
+    background-color: #404041; /* Example background color */
+    padding: 40px 0;
+  }
+  
+  .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .AboutUs-heading {
+    color: #C2E7EF;
+    font-family: "Inria Serif";
+    font-size: 40px;
+    font-weight: 700;
+    /* text-align: center; Center the heading */
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  .AboutUs-heading::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: #B3B4B7;
+    /*margin: 10px auto 0;  Center the underline */
+    left: 0;
+    bottom: -1px;
+    flex-shrink: 0;
+    position: absolute;
+  }
+
+  
+  .content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px; /* Space between text and logo */
+  }
+  
+  .text-container {
+    flex: 1;
+    max-width: 600px; /* Adjust as needed */
+  }
+  
+  .AboutUs-text {
+    font-family: 'Inria Serif';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    color: #c2e7ef;
+    text-align: left;
+    margin: 0;
+    align-items: center;
+  }
+  
+  .aboutUs-cta {
+    width: 395px;
+    height: 391px;
+    border-radius: 20px 20px 0px 0px;
+    border-top: 2px solid #C2E7EF;
+    border-right: 2px solid #C2E7EF;
+    border-left: 2px solid #C2E7EF;
+    background: #B3B4B7;
+    backdrop-filter: blur(20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .aboutUs-logo {
+    width: 100%;
+    height: auto;
+    max-height: 481px;
+    object-fit: cover;
+  }

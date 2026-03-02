@@ -1,0 +1,10 @@
+How to run Nabeeh, On "Power Shell"
+
+
+Run FastAPI (Back-End):
+PS C:\Users\pc> cd "C:\Users\pc\Downloads\Nabeeh\backend"
+PS C:\Users\pc\Downloads\Nabeeh\backend> uvicorn main:app --reload --host 0.0.0.0 --port 8000
+
+Run Front-End:
+PS C:\Users\pc> cd "C:\Users\pc\Downloads\Nabeeh\frontend\GP2\front-end"
+PS C:\Users\pc\Downloads\Nabeeh\frontend\GP2\front-end> npm run dev

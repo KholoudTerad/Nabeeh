@@ -1,0 +1,40 @@
+.input-field {
+    width: 100%;
+    border: none;
+    background: #C2E7EF;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Inria Serif";
+    font-size: 16px;
+    color: #404041;
+  }
+  
+  .input-field::placeholder {
+    color: #40404180;
+  }
+
+  
+  .submit-button {
+    background-color: #C2E7EF;
+    width: 169px;
+    height: 43px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 60px;
+    border: none;
+    margin-left: 650px;
+
+    color: #404041;
+    font-family: "Inria Serif";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .submit-button:hover {
+    background-color: #C2E7EF;
+    transform: scale(1.05);
+    
+  }
+  
