@@ -48,18 +48,4 @@ build/
 *~
 .DS_Store
 
-# Project-specific temporary files
-videos/
-frames/
-b0_output/
-of_output/
-*.caffemodel
-*.pth
-*.pkl
 
-# Firebase
-firebase-debug.log
-
-# OS
-Thumbs.db
-.DS_Store

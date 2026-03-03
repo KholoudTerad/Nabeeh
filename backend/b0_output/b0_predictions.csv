@@ -1,0 +1,20 @@
+frame,Frame_Name,Prediction,Confidence
+1,frame_000_face_0.jpg,Not Attentive,0.24130162596702576
+2,frame_001_face_0.jpg,Not Attentive,0.31656894087791443
+3,frame_001_face_1.jpg,Not Attentive,0.33618494868278503
+4,frame_002_face_0.jpg,Not Attentive,0.4819769859313965
+5,frame_002_face_1.jpg,Not Attentive,0.4135418236255646
+6,frame_002_face_2.jpg,Not Attentive,0.3094524145126343
+7,frame_002_face_3.jpg,Not Attentive,0.3168239891529083
+8,frame_003_face_0.jpg,Not Attentive,0.49197813868522644
+9,frame_003_face_1.jpg,Not Attentive,0.33885276317596436
+10,frame_003_face_2.jpg,Not Attentive,0.47677454352378845
+11,frame_004_face_0.jpg,Not Attentive,0.30865752696990967
+12,frame_004_face_1.jpg,Attentive,0.6525331139564514
+13,frame_004_face_2.jpg,Not Attentive,0.3608924150466919
+14,frame_005_face_0.jpg,Not Attentive,0.25614815950393677
+15,frame_006_face_0.jpg,Not Attentive,0.273485392332077
+16,frame_007_face_0.jpg,Not Attentive,0.27545106410980225
+17,frame_008_face_0.jpg,Not Attentive,0.31093692779541016
+18,frame_008_face_1.jpg,Not Attentive,0.24788708984851837
+19,frame_009_face_0.jpg,Not Attentive,0.28785842657089233

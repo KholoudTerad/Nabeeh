@@ -1,0 +1,3 @@
+Input:C:\Users\pc\Downloads\Nabeeh\gp2_of_b0\frames
+Input full path:C:\Users\pc\Downloads\Nabeeh\gp2_of_b0\frames
+Camera parameters:44.7917,44.7917,18,29.5

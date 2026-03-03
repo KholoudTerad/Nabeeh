@@ -1,0 +1,10 @@
+Input:C:\Users\pc\Downloads\of\frames\f1
+Input full path:C:\Users\pc\Downloads\of\frames\f1
+Camera parameters:220.312,220.312,112,127.5
+Output csv:f1.csv
+Gaze: 1
+AUs: 0
+Landmarks 2D: 0
+Landmarks 3D: 0
+Pose: 0
+Shape parameters: 0
